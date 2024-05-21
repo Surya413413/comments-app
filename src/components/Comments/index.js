@@ -83,7 +83,7 @@ class Comments extends Component {
             <form onSubmit={this.onAddComments}>
               <div className="search-textarea">
                 <input
-                  type="search"
+                  type="text"
                   className="search-input"
                   placeholder="Your Name"
                   onChange={this.onChangeName}
